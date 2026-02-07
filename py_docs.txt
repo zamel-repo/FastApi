@@ -1,0 +1,298 @@
+🟢 المستوى الأول: الأساسيات (Beginner)
+1️⃣ مقدمة FastAPI
+
+ما هو FastAPI؟
+
+لماذا FastAPI؟ (مقارنة مع Flask / Django)
+
+متى نستخدمه؟
+
+أمثلة تطبيقات حقيقية
+
+2️⃣ تجهيز البيئة
+
+تثبيت Python (أفضل الإصدارات)
+
+إنشاء Virtual Environment
+
+تثبيت FastAPI و Uvicorn
+
+تشغيل أول API
+
+3️⃣ أول API
+
+إنشاء main.py
+
+@app.get
+
+Response بسيط (JSON)
+
+تشغيل السيرفر وفهم Auto Reload
+
+4️⃣ Swagger & Redoc
+
+Swagger UI
+
+Redoc
+
+كيف FastAPI يولد Documentation تلقائيًا
+
+5️⃣ Path Parameters
+
+تعريف Path Params
+
+Type Hinting
+
+Validation تلقائي
+
+6️⃣ Query Parameters
+
+Required vs Optional
+
+Default Values
+
+Validation باستخدام Query
+
+🟡 المستوى الثاني: التعامل مع البيانات (Beginner → Intermediate)
+7️⃣ Request Body
+
+استخدام Pydantic Models
+
+JSON Body
+
+Nested Models
+
+8️⃣ Response Model
+
+response_model
+
+إخفاء الحقول
+
+التحكم في Output
+
+9️⃣ Status Codes
+
+HTTP Status Codes
+
+استخدام status
+
+Best Practices
+
+🔟 Headers & Cookies
+
+قراءة Headers
+
+Cookies
+
+استخدامات عملية
+
+1️⃣1️⃣ Form Data & File Upload
+
+Form
+
+File
+
+UploadFile
+
+رفع ملفات بشكل احترافي
+
+🟠 المستوى الثالث: التحكم والتصميم الجيد (Intermediate)
+1️⃣2️⃣ Dependency Injection (مهم جدًا)
+
+مفهوم DI
+
+Depends
+
+إعادة استخدام الكود
+
+Use cases حقيقية
+
+1️⃣3️⃣ Middleware
+
+ما هو Middleware
+
+Logging
+
+Timing Requests
+
+Custom Middleware
+
+1️⃣4️⃣ Error Handling
+
+HTTPException
+
+Custom Exceptions
+
+Exception Handlers
+
+منع Server Error 500 (نقطة مهمة لك 👌)
+
+1️⃣5️⃣ Background Tasks
+
+تشغيل مهام بالخلفية
+
+Email / Logging / Cleanup
+
+1️⃣6️⃣ Events (Startup & Shutdown)
+
+تهيئة Database
+
+فتح وإغلاق Connections
+
+🔵 المستوى الرابع: قواعد البيانات (Intermediate → Advanced)
+1️⃣7️⃣ Database Basics
+
+ORM vs Raw SQL
+
+SQLAlchemy Core vs ORM
+
+Async vs Sync DB
+
+1️⃣8️⃣ SQLAlchemy مع FastAPI
+
+Models
+
+Sessions
+
+CRUD Operations
+
+1️⃣9️⃣ Async SQLAlchemy
+
+Async Engine
+
+AsyncSession
+
+Performance Considerations
+
+2️⃣0️⃣ Alembic (Migrations)
+
+ما هي Migrations
+
+إنشاء وتطبيق Migrations
+
+Best Practices
+
+2️⃣1️⃣ MongoDB مع FastAPI (اختياري)
+
+Motor
+
+Schema Design
+
+Use Cases
+
+🔴 المستوى الخامس: الأمن والحماية (Advanced)
+2️⃣2️⃣ Authentication Basics
+
+OAuth2
+
+Bearer Token
+
+Password Hashing
+
+2️⃣3️⃣ JWT Authentication
+
+إنشاء Access Token
+
+Refresh Token
+
+Token Expiration
+
+2️⃣4️⃣ Authorization
+
+Roles & Permissions
+
+RBAC
+
+حماية Endpoints
+
+2️⃣5️⃣ Security Best Practices
+
+Rate Limiting
+
+CORS
+
+HTTPS
+
+Prevent Common Attacks
+
+🟣 المستوى السادس: الأداء والاحتراف (Advanced)
+2️⃣6️⃣ Async & Performance
+
+Event Loop
+
+Blocking vs Non-blocking
+
+تحسين الأداء
+
+2️⃣7️⃣ Caching
+
+Redis
+
+Response Caching
+
+Use cases عملية
+
+2️⃣8️⃣ Logging & Monitoring
+
+Structured Logging
+
+Log Levels
+
+Integration مع ELK / Prometheus
+
+2️⃣9️⃣ Testing
+
+Pytest
+
+TestClient
+
+Unit vs Integration Tests
+
+3️⃣0️⃣ Validation متقدم
+
+Custom Validators
+
+Root Validators
+
+Regex / Constraints
+
+⚫ المستوى السابع: الإنتاج الحقيقي (Production-Level)
+3️⃣1️⃣ Project Structure (Clean Architecture)
+
+فصل Layers
+
+Domain / Application / Infrastructure
+
+Best Folder Structure
+
+3️⃣2️⃣ Configuration Management
+
+Environment Variables
+
+Settings باستخدام Pydantic
+
+Multiple Environments
+
+3️⃣3️⃣ Docker مع FastAPI
+
+Dockerfile احترافي
+
+Multi-stage build
+
+حماية السورس كود
+
+3️⃣4️⃣ Deployment
+
+Nginx + Uvicorn
+
+Gunicorn
+
+Cloud Deployment
+
+3️⃣5️⃣ Scalability
+
+Horizontal Scaling
+
+Load Balancer
+
+Microservices Basics
